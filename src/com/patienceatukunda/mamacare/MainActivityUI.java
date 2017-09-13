@@ -31,6 +31,7 @@ public class MainActivityUI extends Activity {
         if (id == R.id.action_settings) {
             return true;
         }
+        //this is a comment
         return super.onOptionsItemSelected(item);
     }
 }
