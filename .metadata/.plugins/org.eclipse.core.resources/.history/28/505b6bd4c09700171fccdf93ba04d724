@@ -1,0 +1,39 @@
+package com.patience.mamacare.service;
+
+import java.util.List;
+
+import com.patience.mamacare.model.Woman;
+
+public class WomanServiceImpl implements WomanService {
+
+	@Override
+	public List<Woman> getWomen() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void saveWoman(Woman woman) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void deleteWoman(int id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Woman getWoman(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Woman editWoman(Woman woman) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

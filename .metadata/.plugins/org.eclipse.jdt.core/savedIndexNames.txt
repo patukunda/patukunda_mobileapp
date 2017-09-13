@@ -1,0 +1,6 @@
+INDEX VERSION 1.126+E:\MHI COURSE\MHI YEAR 2\Semester 1\Advanced Programming\PatienceAtukunda\.metadata\.plugins\org.eclipse.jdt.core
+1284074322.index
+1143955927.index
+3669930100.index
+3535471818.index
+2307784692.index

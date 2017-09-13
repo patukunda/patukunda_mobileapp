@@ -1,0 +1,5 @@
+package com.patience.mamacare.service;
+
+public interface WomanService {
+
+}

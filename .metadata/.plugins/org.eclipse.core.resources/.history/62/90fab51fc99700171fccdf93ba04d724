@@ -1,0 +1,5 @@
+package com.patience.mamacare.database;
+//This class is for managing the application database
+public class Database {
+
+}

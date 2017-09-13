@@ -1,0 +1,41 @@
+package com.patience.mamacare.database;
+
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteDatabase.CursorFactory;
+import android.database.sqlite.SQLiteOpenHelper;
+
+//This class is for managing the application database
+public class Database extends SQLiteOpenHelper{
+	private static final String dbName ="mamacare";
+private static final int dbversion = 1;
+private static final String tableWoman = "woman";
+private static final String tableWomanColumnId = "womanid";
+private static final String tableWomanColumnfirstName = "first_name";
+private static final String tableWomanColumnLastName = "last_name";
+private static final String tableWomanColumnAge = "age";
+private static final String tableWomanColumnAddress = "address";
+//database statements to create the woman table,
+private  static final String createTableWoman = "CREATE TABLE IN NOT EXISTS" + tableWoman+"(" +
+       tableWomanColumnId + "TEXT," + tableWomanColumnLastName +" tableWomanColumnAge + " +
+		"INTEGER," + tableWomanColumnAddress + "TEXT)";
+
+		
+	public Database(Context context) {
+	super(context, dbName, null,dbversion);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void onCreate(SQLiteDatabase db) {
+		// TODO Auto-generated method stub
+		db.execSQL(createTableWoman);
+	}
+
+	@Override
+	public void onUpgrade(SQLiteDatabase db, int oldversion, int newVersion){
+		// TODO Auto-generated method stub
+		
+	}
+
+}
